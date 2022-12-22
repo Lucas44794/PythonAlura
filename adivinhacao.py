@@ -2,9 +2,9 @@ from random import randrange
 
 def jogar():
 
-    print("*" * 33)
+    print("*********************************")
     print("Bem vindo ao jogo de Adivinhação!")
-    print("*" * 33)
+    print("*********************************")
 
     numero_secreto = randrange(1,101)
     total_de_tentativas = 0
@@ -25,12 +25,12 @@ def jogar():
     for rodada in range(1, total_de_tentativas + 1):
         print(f"Tentativa {rodada} de {total_de_tentativas}")
 
-        chute_str = input('Digite um número entre 1 e 100: ')
+        chute_str = input("Digite um número entre 1 e 100: ")
         print("Você digitou " , chute_str)
         chute = int(chute_str)
 
         if(chute < 1 or chute > 100):
-            print('Você deve digitar um número entre 1 e 100!')
+            print("Você deve digitar um número entre 1 e 100!")
             continue
 
         acertou = chute == numero_secreto
@@ -38,13 +38,13 @@ def jogar():
         menor   = chute < numero_secreto
 
         if(acertou):
-            print(f'Você acertou e fez {pontos} pontos!')
+            print(f"Você acertou e fez {pontos} pontos!")
             break
         else:
             if(maior):
-                print('Você errou! O seu chute foi maior do que o número secreto.')
+                print("Você errou! O seu chute foi maior do que o número secreto.")
             elif(menor):
-                print('Você errou! O seu chute foi menor do que o número secreto.')
+                print("Você errou! O seu chute foi menor do que o número secreto.")
             pontos_perdidos = abs(numero_secreto - chute)
             pontos = pontos - pontos_perdidos
 

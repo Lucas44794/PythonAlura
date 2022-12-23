@@ -19,7 +19,7 @@ Caso o usuario acerte o número gerado, aparece a mensagem:
 Caso o usuario não consiga descobrir, aparecerá a mensagem:
 ![image](https://user-images.githubusercontent.com/109930651/209245357-22593c50-7c77-479d-b25a-b5e897583d9b.png)
 
-============================================================================================
+===========================================================================
 
 # Jogos.py
 
@@ -33,7 +33,7 @@ Ao selecionar através do número, o jogo é automaticamente executado:
 
 ![image](https://user-images.githubusercontent.com/109930651/209245699-a1e1deeb-db6b-4db7-a596-52c0492bbae2.png)
 
-============================================================================================
+===========================================================================
 
 # Forca
 forca.py

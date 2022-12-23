@@ -41,5 +41,5 @@ forca.py
 Já o jogo da forca foi o mais desafiador dentre esses todos.
 Nele eu aprendi a utilizar funções em python, além de treinar em python diversas coisas como:
 Listas, laços de repetição, tratamento de strings, leitura e escrita de arquivos externos e as funções.
-Tentei mudar algumas coisas dentro do projeto, mas para me desafiar mais, farei um novo projeto com o mesmo intuito, para fixar mais o conteúdo e me forçar a realemte aprender
+Tentei mudar algumas coisas dentro do projeto, mas para me desafiar mais, farei um novo projeto com o mesmo intuito, para fixar mais o conteúdo e me forçar a realmete aprender
 ![image](https://user-images.githubusercontent.com/109930651/209246344-de596cea-9c79-4d41-bb9c-09756367c4bd.png)
